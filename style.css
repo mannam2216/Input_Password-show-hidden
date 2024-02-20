@@ -89,3 +89,11 @@ body{
 .overlay-content ~ .input_password::placeholder{
      color: var(--text-color);
 }
+
+
+/* ====BREAK POINTS==== */
+@media screen and (min-width: 368px) {
+     .input{
+          justify-self: center;
+     }
+}
